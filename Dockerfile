@@ -51,7 +51,7 @@ RUN mkdir /tmp/composer-cache
 
 # Feeds composer local cache
 ADD composer.json /tmp/composer-cache/
-RUN sh -c "cd /tmp/composer-cache; composer install"
+RUN sh -c "cd /tmp/composer-cache; composer install --no-autoloader --no-progress --no-suggest "
 
 # The real command is specified in docker-compose.yml
 CMD ["sleep", "10"]
