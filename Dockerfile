@@ -55,4 +55,3 @@ RUN sh -c "cd /tmp/composer-cache; composer install --no-autoloader --no-progres
 
 # The real command is specified in docker-compose.yml
 CMD ["sleep", "10"]
-
