@@ -47,7 +47,7 @@ WORKDIR /data
 # Change current user to www
 USER www
 
-RUN mkdir /tmp/build
+RUN mkdir /tmp/composer-cache
 
 # Feeds composer local cache
 ADD composer.json /tmp/composer-cache/
