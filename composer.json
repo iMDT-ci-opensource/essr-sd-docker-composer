@@ -15,6 +15,7 @@
         "ddeboer/imap": "^0.5.2",
         "dompdf/dompdf": "^0.8.5",
         "fideloper/proxy": "^4.0",
+        "genkgo/camt": "^1.1",
         "guzzlehttp/guzzle": "^6.3",
         "jejik/mt940": "^0.4.1",
         "jeremykenedy/laravel-roles": "^1.2",
