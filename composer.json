@@ -21,7 +21,6 @@
         "laravel/framework": "^5.8.0",
         "league/csv": "^9.6",
         "reinink/advanced-eloquent": "^0.2.0",
-        "sofa/revisionable": "5.5.*",
         "sprain/swiss-qr-bill": "^2.9",
         "twilio/sdk": "^6.10",
         "tymon/jwt-auth": "dev-develop"
