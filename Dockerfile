@@ -44,10 +44,11 @@ RUN useradd -u 1000 -ms /bin/bash -g www www
 # Set working directory
 WORKDIR /data
 
+RUN mkdir /usr/local/composer-cache
+RUN chown www /usr/local/composer-cache
+
 # Change current user to www
 USER www
-
-RUN mkdir /usr/local/composer-cache
 
 # Feeds composer local cache
 ADD composer.json /usr/local/composer-cache/
